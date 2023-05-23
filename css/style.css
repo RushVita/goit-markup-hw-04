@@ -437,10 +437,14 @@ img {
 }
 
 .customers-link:hover,
-.container-link:focus {
+.customers-link:focus {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
 }
+/* .container-link:focus {
+  border-color: 1px solid var(--hover-link-button-color);
+  color: var(--hover-link-button-color);
+} */
 
 .customers-icon {
   fill: currentColor;
