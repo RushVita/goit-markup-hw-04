@@ -467,7 +467,7 @@ img {
 .footer-box {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .footer-logo-text {
