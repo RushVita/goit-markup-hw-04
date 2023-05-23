@@ -173,7 +173,7 @@ img {
 
   background-color: var(--hero-background-color);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ .jpg);
+    url(../images/hero/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -434,7 +434,11 @@ img {
 
   cursor: pointer;
 }
-.customers-link:hover,
+.customers-link:hover {
+  border-color: 1px solid var(--hover-link-button-color);
+  color: var(--hover-link-button-color);
+}
+
 .customers-link:focus {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
@@ -463,7 +467,7 @@ img {
 .footer-box {
   display: flex;
   flex-direction: column;
-  margin-right: 120px;
+  gap: 120px;
 }
 
 .footer-logo-text {
@@ -568,17 +572,18 @@ img {
 }
 .portfolio-content-item:hover,
 .portfolio-content-item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-link {
+  display: block;
   cursor: auto;
 }
 
 .portfolio-link:hover,
 .portfolio-link:focus {
   cursor: pointer;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-link {
