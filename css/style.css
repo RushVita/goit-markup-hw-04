@@ -436,12 +436,12 @@ img {
   cursor: pointer;
 }
 
-/* .customers-link:focus {
+.customers-link:focus .customers-icon {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
-} */
+}
 
-.customers-link:hover {
+.customers-link:hover .customers-icon {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
 }
