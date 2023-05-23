@@ -418,6 +418,8 @@ img {
   border-radius: 4px;
   width: 168px;
   height: 88px;
+
+  cursor: pointer;
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -427,8 +429,8 @@ img {
   fill: #8e8f99;
 }
 
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
   fill: var(--hover-link-button-color);
 }
 /* Footer */
