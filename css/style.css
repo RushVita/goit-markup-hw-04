@@ -423,6 +423,13 @@ img {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: 1px solid var(--hover-link-button-color);
+  color: var(--hover-link-button-color);
+}
+
 .customers-link {
   display: flex;
   justify-content: center;
@@ -436,18 +443,13 @@ img {
   cursor: pointer;
 }
 
+.customers-icon {
+  fill: currentColor;
+}
 .customers-link:hover,
 .customers-link:focus {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
-}
-/* .container-link:focus {
-  border-color: 1px solid var(--hover-link-button-color);
-  color: var(--hover-link-button-color);
-} */
-
-.customers-icon {
-  fill: currentColor;
 }
 
 /* Footer */
