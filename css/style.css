@@ -436,12 +436,8 @@ img {
   cursor: pointer;
 }
 
-.customers-link:focus {
-  border-color: 1px solid var(--hover-link-button-color);
-  color: var(--hover-link-button-color);
-}
-
-.customers-link:hover .customers-icon {
+.customers-link:hover,
+.container-link:focus {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
 }
