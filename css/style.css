@@ -446,7 +446,7 @@ img {
 .customers-icon {
   fill: currentColor;
 }
-.customers-link:hover,
+
 .customers-link:focus {
   border-color: 1px solid var(--hover-link-button-color);
   color: var(--hover-link-button-color);
