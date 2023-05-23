@@ -13,6 +13,7 @@
   --button-background-color: #f4f4fd;
   --button-text-color: #4d5ae5;
   --hover-link-button-color: #404bbf;
+  --customers-color: #8e8f99;
 }
 
 body {
@@ -339,7 +340,7 @@ img {
 }
 
 .container-name {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .team-name {
@@ -391,12 +392,13 @@ img {
 
 /* Customers */
 .customers {
+  padding: 120px 0px;
 }
 
-.container-customers {
+/* .container-customers {
   margin-top: 120px;
   margin-bottom: 120px;
-}
+} */
 .title-customers {
   margin-bottom: 72px;
 
@@ -415,11 +417,13 @@ img {
 }
 
 .customers-item {
+  width: calc((100% - 120px) / 6);
 }
 .customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--customers-color);
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 168px;
@@ -430,15 +434,12 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--hover-link-button-color);
+  color: var(--hover-link-button-color);
 }
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-  fill: var(--hover-link-button-color);
-}
 /* Footer */
 .footer-container {
   display: flex;
@@ -456,12 +457,17 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+}
+
 .footer-logo-text {
   color: var(--footer-text-color);
 }
 .footer-text {
   max-width: 264px;
-  margin-right: 120px;
 
   font-size: 16px;
   line-height: 1.5;
